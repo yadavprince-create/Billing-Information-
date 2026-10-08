@@ -1,0 +1,53 @@
+name = "prince"
+print(name)
+
+lists = ["milk","curd","wheat","rice","1Ltr sprite"]
+print(lists[0])
+print(lists[1])
+print(lists[2])
+print(lists[3])
+print(lists[4])
+
+number = int(input("enter your number of lists :-> "))
+price = []
+
+for i in range(number):
+    print(i)
+    item_price = int(input(" enter the prices:-> "))
+    print(item_price)
+    price.append(item_price)
+
+print(price)
+
+total = 0
+for p in price:
+    total = total + p
+    print("total",total)
+
+print("=================================================")
+
+gst = total * 18 / 100
+print("gst",gst)
+
+print("=================================================")
+
+discount = total * 5 / 100
+print("discount",discount)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
